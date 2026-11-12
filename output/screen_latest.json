@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-12",
+ "universe": 1354,
+ "priced": 1351,
+ "fundamentals": 390,
+ "kept": 150,
+ "errors": {},
+ "universe_by_market": {
+  "US": 903,
+  "UK": 251,
+  "KR": 200
+ },
+ "us_notes": [
+  "iShares failed: StopIteration()",
+  "source: S&P 500 + S&P 400 (Wikipedia)"
+ ],
+ "kept_by_market": {
+  "US": 82,
+  "KR": 34,
+  "UK": 34
+ }
+}
