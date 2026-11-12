@@ -1,10 +1,10 @@
 {
  "date": "2026-11-12",
  "universe": 1354,
- "priced": 1351,
- "fundamentals": 1351,
+ "priced": 1352,
+ "fundamentals": 1352,
  "fundamentals_by_source": {
-  "yfinance": 1351
+  "yfinance": 1352
  },
  "scored": 1341,
  "kept": 150,
