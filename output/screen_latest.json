@@ -2,11 +2,11 @@
  "date": "2026-11-12",
  "universe": 1354,
  "priced": 1351,
- "fundamentals": 701,
+ "fundamentals": 1351,
  "fundamentals_by_source": {
-  "yfinance": 701
+  "yfinance": 1351
  },
- "scored": 691,
+ "scored": 1341,
  "kept": 150,
  "errors": {},
  "universe_by_market": {
@@ -19,8 +19,9 @@
   "source: S&P 500 + S&P 400 (Wikipedia)"
  ],
  "fundamentals_notes": [
-  "SEC failed: RuntimeError('SEC ticker map unavailable')",
-  "KRX failed: KeyError(\"None of [Index(['BPS', 'PER', 'PBR', 'EPS', 'DIV', 'DPS'], dtype='object')] are in the [columns]\")"
+  "SEC failed: RuntimeError(\"SEC ticker map unavailable {'status': 403, 'status_txt': 403}\")",
+  "KRX failed: KeyError(\"None of [Index(['BPS', 'PER', 'PBR', 'EPS', 'DIV', 'DPS'], dtype='object')] are in the [columns]\")",
+  "SEC unavailable: yfinance used for every US name"
  ],
  "kept_by_market": {
   "US": 82,
