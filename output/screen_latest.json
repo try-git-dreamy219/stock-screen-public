@@ -2,7 +2,11 @@
  "date": "2026-11-12",
  "universe": 1354,
  "priced": 1351,
- "fundamentals": 390,
+ "fundamentals": 701,
+ "fundamentals_by_source": {
+  "yfinance": 701
+ },
+ "scored": 691,
  "kept": 150,
  "errors": {},
  "universe_by_market": {
@@ -13,6 +17,10 @@
  "us_notes": [
   "iShares failed: StopIteration()",
   "source: S&P 500 + S&P 400 (Wikipedia)"
+ ],
+ "fundamentals_notes": [
+  "SEC failed: RuntimeError('SEC ticker map unavailable')",
+  "KRX failed: KeyError(\"None of [Index(['BPS', 'PER', 'PBR', 'EPS', 'DIV', 'DPS'], dtype='object')] are in the [columns]\")"
  ],
  "kept_by_market": {
   "US": 82,
