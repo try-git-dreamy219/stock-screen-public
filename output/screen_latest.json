@@ -1,12 +1,12 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "universe": 1354,
  "priced": 1352,
  "fundamentals": 1352,
  "fundamentals_by_source": {
   "yfinance": 1352
  },
- "scored": 1334,
+ "scored": 1343,
  "kept": 150,
  "errors": {},
  "universe_by_market": {
